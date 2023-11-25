@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap">
+    <link rel="stylesheet" href="https://fonts.google.com/css2?family=Long+Cang&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim&display=swap">
+    <style>
+        .sidebar a {
+            color: white; 
+            text-decoration: none; 
+        }
+
+        .sidebar a:visited {
+            color: white; 
+        }
+        .contact a {
+            color: black;        
+            text-decoration: none; 
+        }
+
+        .contact a:visited {
+            color: black; 
+        }
+        .floating-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #000000;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+        .floating-button img {
+      width: 100%;
+      height: 100%;
+    }
+
+    </style>
+</head>
+<body style="background-color: #000000;">
+    <div class="Desktop31" style="width: 100%; height: 100%; position: relative; background: rgb(0, 0, 0)">
+        <div class="Rectangle8" style="width: 123px; height: 28803px; left: 1378px; top: -2px; position: absolute; background: #7E7E7E"></div>
+        <div class="Rectangle1" style="width: 1417px; height: 28745px; left: 0px; top: 56px; position: absolute; background: #0A0A0A; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>
+        <div class="Group1" style="width: 1417px; height: 816px; left: 0px; top: -2px; position: absolute">
+            <div class="Ellipse2" style="width: 1417px; height: 345.26px; left: 0px; top: 470.74px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+            <div class="Rectangle3" style="width: 1417px; height: 643.37px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
+            <div class="DArtworks" style="width: 1188.26px; height: 421.08px; left: 145px; top: 173px; position: absolute; text-align: center; color: black; font-size: 160px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="top">3D ARTWORKS</div>
+        </div>
+        <div class="WelcomeToMy3dArtPortfolioACaptivatingWorldBroughtToLifeEntirelyThroughBlenderInThisCollectionYouLlDiscoverASymphonyOfShapesColorsAndImaginationJoinMeAsWeExploreTheLimitlessPossibilitiesOf3dArtWhereCreativityKnowsNoBounds" style="width: 1140px; left: 139px; top: 1132px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Welcome to my 3D Art Portfolio, a captivating world brought to life entirely through Blender. In this collection, you'll discover a symphony of shapes, colors, and imagination. Join me as we explore the limitless possibilities of 3D art, where creativity knows no bounds.</div>
+        <div class="LikeManyOthersMyInitialForayIntoCreativeWorkBeganWithCraftingDonutsHoweverITookItAStepFurtherByIncorporatingAPlateAndCoffeeMugToCreateACompleteBreakfastSetting" style="width: 1140px; left: 139px; top: 2233px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Like many others, my initial foray into creative work began with crafting donuts. However, I took it a step further by incorporating a plate and coffee mug to create a complete breakfast setting.</div>
+        <div class="Breakfast" style="width: 952px; left: 263px; top: 2090px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section1">BREAKFAST</div>
+        <div class="ThePrimaryGoalOfThisConceptIsToConstructALifeSizedObjectWhileAdheringToPrinciplesOfProportionAndScaleNeverthelessToEvokeAToyLikeQualityPlasticMaterialHasBeenUtilizedInPlaceOfMetal" style="width: 1140px; left: 139px; top: 4338px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">The primary goal of this concept is to construct a life-sized object while adhering to principles of proportion and scale. Nevertheless, to evoke a toy-like quality, plastic material has been utilized in place of metal.</div>
+        <div class="ThisConceptLikeBeforeEmphasizesBuildingALifeSizedSubjectWithTheRightProportionsAndScaleButItAlsoIncludesSculptedBodyParts" style="width: 1140px; left: 161px; top: 5947px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">This concept, like before, emphasizes building a life-sized subject with the right proportions and scale, but it also includes sculpted body parts.</div>
+        <div class="IMABigFanOfMarvelSoWhenTheOpportunityAroseICouldnTResistCraftingSomethingInspiredByItThatSHowIEndedUpCreatingACaptainAmericaShield" style="width: 1140px; left: 161px; top: 7287px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">I'm a big fan of Marvel, so when the opportunity arose, I couldn't resist crafting something inspired by it. That's how I ended up creating a Captain America shield.</div>
+        <div class="ThisIdeaInvolvesConstructingAnEntireRoomSetupUsingAssetsAvailableFromBlenderkit" style="width: 1140px; left: 169px; top: 8516px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">This idea involves constructing an entire room setup using assets available from BlenderKit.</div>
+        <div class="WhileIMAMarvelFanIVeAlsoBeenGreatlyImpressedByTheCreationsOfPixarWhichInspiredMeToRecreateTheirLogo" style="width: 1140px; left: 169px; top: 9571px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">While I'm a Marvel fan, I've also been greatly impressed by the creations of Pixar, which inspired me to recreate their logo.</div>
+        <div class="TheJourneyOfCreatingAnimationsWithBlenderStartedHereToBeginIOptedForSomethingSimplerButDesignedToLoopSmoothly" style="width: 1140px; left: 143px; top: 11571px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">The journey of creating animations with Blender started here. To begin, I opted for something simpler but designed to loop smoothly.</div>
+        <div class="IRecreatedTheWorkOfAnotherArtistAsAWayToDevelopMyBlenderAnimationSkills" style="width: 1140px; left: 143px; top: 13941px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">I recreated the work of another artist as a way to develop my Blender animation skills.</div>
+        <div class="ThePurposeOfThisConceptIsToComprehendVariationsInSpeedAmongVariousElementsAtDifferentAnglesAsWellAsDuplicatingTheModelToDemonstrateSmoothLooping" style="width: 1140px; left: 143px; top: 15245px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">The purpose of this concept is to comprehend variations in speed among various elements at different angles, as well as duplicating the model to demonstrate smooth looping.</div>
+        <div class="TheConceptRevolvesAroundCreatingACompleteShapeComposedOfNumerousSmallElementsThatInteractWithTheirEnvironment" style="width: 1140px; left: 143px; top: 17850px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">The concept revolves around creating a complete shape composed of numerous small elements that interact with their environment.</div>
+        <div class="BothOfTheseConceptsAimToIllustrateTheEvolutionOfAGameWithinThisWorldUsingTheSameUnderlyingMechanism" style="width: 1140px; left: 169px; top: 19108px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Both of these concepts aim to illustrate the evolution of a game within this world, using the same underlying mechanism.</div>
+        <div class="ThisConceptDiscussesTheInterplayBetweenMotionAndTheTimeItTakesToRespondConsideringTheEnvironmentAsAReferencePoint" style="width: 1140px; left: 169px; top: 22715px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">This concept discusses the interplay between motion and the time it takes to respond, considering the environment as a reference point.</div>
+        <div class="RobotToy" style="width: 952px; left: 272px; top: 4202px; position: absolute; text-align: center; color: white;font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section2">ROBOT TOY</div>
+        <div class="ToyFigure" style="width: 952px; left: 276px; top: 5782px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section3">TOY FIGURE</div>
+        <div class="CaptainAmericaShield" style="width: 952px; left: 276px; top: 7142px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section4">CAPTAIN AMERICA SHIELD</div>
+        <div class="GameSpace" style="width: 952px; left: 237px; top: 13730px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section7">GAME SPACE</div>
+        <div class="Kitchen" style="width: 952px; left: 284px; top: 8346px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section5">KITCHEN</div>
+        <div class="Pixar" style="width: 952px; left: 280px; top: 9438px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section6">PIXAR</div>
+        <div class="ConveyorBelt" style="width: 952px; left: 237px; top: 11360px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word">CONVEYOR BELT</div>
+        <div class="Helicopter" style="width: 952px; left: 237px; top: 15034px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section8">HELICOPTER</div>
+        <div class="PingPongAndArcadeMachine" style="width: 1238px; left: 95px; top: 18963px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section9">PING PONG AND ARCADE MACHINE</div>
+        <div class="Keyboard" style="width: 1238px; left: 90px; top: 22582px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section10">KEYBOARD</div>
+        <div class="JapaneseDineIn" style="width: 1238px; left: 110px; top: 24662px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section11">JAPANESE DINE-IN</div>
+        <div class="TheIdeaIsToMergeABrandWithAPreExistingArtMovementInOrderToPromoteTheBrandEffectively" style="width: 1140px; left: 184px; top: 26569px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">The idea is to merge a brand with a pre-existing art movement in order to promote the brand effectively.</div>
+        <div class="HistoryAndBrand" style="width: 1238px; left: 105px; top: 26389px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section12">HISTORY AND BRAND</div>
+        <div class="GothicXCocaCola" style="left: 201px; top: 27690px; position: absolute; text-align: center; color: white; font-size: 48px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word">GOTHIC X COCA COLA</div>
+        <div class="RomanticismXStarbucks" style="left: 141px; top: 28673px; position: absolute; text-align: center; color: white; font-size: 48px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word">ROMANTICISM X STARBUCKS</div>
+        <div class="ImpressionismXMumbaiMusicFest" style="left: 712px; top: 28229px; position: absolute; text-align: center; color: white; font-size: 48px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word">IMPRESSIONISM X MUMBAI MUSIC FEST</div>
+        <div class="SymbolismXUsPostageStamp" style="left: 757px; top: 28673px; position: absolute; text-align: center; color: white; font-size: 48px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word">SYMBOLISM X US POSTAGE STAMP</div>
+        <div class="RococoXCocaRoco" style="left: 904px; top: 27678px; position: absolute; text-align: center; color: white; font-size: 48px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word">ROCOCO X COCA ROCO</div>
+        <div class="Dominoes" style="width: 952px; left: 237px; top: 17639px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word">DOMINOES</div>
+        <a href="main-new.html"><img class="Ellipse3" style="width: 100px; height: 100px; left: 41.92px; top: 51.50px; position: absolute; border: 15px black solid; border-radius: 100px;" src="./../iMAGES/download.png" /></a>
+        <img class="Image1" style="width: 1193px; height: 634px; left: 112px; top: 2772px; position: absolute" src="./../iMAGES/Screenshot 2023-11-07 193818.png" >
+        <img class="Breakfast1" style="width: 1167px; height: 656px; left: 125px; top: 3450px; position: absolute" src="./../iMAGES/BREAKFAST.png" >
+        <img class="Image2" style="width: 677px; height: 680px; left: 24px; top: 4993px; position: absolute" src="./../iMAGES/Screenshot 2023-11-07 194513.png" />
+        <img class="Robot1" style="width: 663px; height: 680px; left: 731px; top: 4993px; position: absolute" src="./../iMAGES/ROBOT.png" />
+        <img class="Toy1" style="width: 454px; height: 605px; left: 924px; top: 6428px; position: absolute" src="./../iMAGES/TOY.png" />
+        <img class="Screenshot202311071956221" style="width: 827px; height: 605px; left: 84px; top: 6428px; position: absolute" src="./../iMAGES/Screenshot 2023-11-07 195622.png" />
+        <img class="Image3" style="width: 630px; height: 507px; left: 48px; top: 7783px; position: absolute" src="./../iMAGES/Screenshot 2023-11-07 200212.png" />
+        <img class="Shield1" style="width: 657px; height: 507px; left: 713px; top: 7783px; position: absolute" src="./../iMAGES/SHIELD.png" />
+        <img class="Screenshot202311072010501" style="width: 691px; height: 494px; left: 48px; top: 8851px; position: absolute" src="./../iMAGES/Screenshot 2023-11-07 201050.png" />
+        <img class="Room1" style="width: 494px; height: 494px; left: 859px; top: 8851px; position: absolute" src="./../iMAGES/ROOM.png" />
+        <img class="ConveyorBelt1" style="width: 1330px; height: 748px; left: 48px; top: 12040px; position: absolute" src="./../iMAGES/CONVEYOR BELT.png" />
+        <video controls loop class="ConveyorBelt2" style="width: 1330px; height: 748px; left: 48px; top: 12885px; position: absolute" src="./../VIDEO/CONVEYOR BELT.mp4" ></video>
+        <video controls loop class="GameAnimation1" style="width: 620px; height: 620px; left: 739px; top: 14317px; position: absolute" src="./../VIDEO/GAME ANIMATION.mp4"> </video>
+        <img class="GameAnimation2" style="width: 620px; height: 620px; left: 69px; top: 14317px; position: absolute" src="./../iMAGES/GAME-ANIMATION.jpg" />
+        <img class="Helicopter1" style="width: 1289px; height: 819px; left: 69px; top: 15807px; position: absolute" src="./../iMAGES/HELICOPTER.jpg" />
+        <video controls loop class="Helicopter2" style="width: 1289px; height: 819px; left: 69px; top: 16723px; position: absolute" src="./../VIDEO/HELICOPTER.mp4" ></video>
+        <video controls loop class="Dominoes1" style="width: 566px; height: 567px; left: 793px; top: 18319px; position: absolute" src="./../VIDEO/DOMINOES 0001-0170.mkv" ></video>
+        <img class="Dominoes2" style="width: 566px; height: 567px; left: 94px; top: 18319px; position: absolute" src="./../iMAGES/DOMINOES.jpg" />
+        <img class="Image4" style="width: 1296px; height: 688px; left: 72px; top: 9869px; position: absolute" src="./../iMAGES/Screenshot 2023-11-07 210826.png" />
+        <img class="Pixar1" style="width: 1296px; height: 668px; left: 72px; top: 10613px; position: absolute" src="./../iMAGES/PIXAR.jpg" >
+        <img class="PingPong1" style="width: 1238px; height: 696px; left: 90px; top: 19520px; position: absolute" src="./../iMAGES/PING PONG.jpg" />
+        <video controls loop class="PingPong2" style="width: 1238px; height: 696px; left: 94px; top: 21036px; position: absolute" src="./../VIDEO/PING PONG.mp4" > </video>
+        <img class="Arcade1" style="width: 1238px; height: 696px; left: 90px; top: 20293px; position: absolute" src="./../iMAGES/ARCADE.jpg" />
+        <video controls loop class="Arcade2" style="width: 1238px; height: 696px; left: 94px; top: 21809px; position: absolute" src="./../VIDEO/ARCADE10001-0100.mkv" ></video>
+        <img class="Keyboard1" style="width: 1238px; height: 697px; left: 94px; top: 23133px; position: absolute" src="./../iMAGES/KEYBOARD.png" />
+        <video controls loop class="Keyboard2" style="width: 1238px; height: 697px; left: 98px; top: 23888px; position: absolute" src="./../VIDEO/KEYBOARD-UPDATED.mp4" ></video>
+        <img class="GothicCola1" style="width: 500px; height: 708px; left: 130px; top: 26942px; position: absolute" src="./../iMAGES/GOTHIC COLA.jpg" />
+        <img class="RococoXChocolate1" style="width: 501px; height: 708px; left: 842px; top: 26942px; position: absolute" src="./../iMAGES/ROCOCO X CHOCOLATE.jpg" />
+        <img class="Untitled21" style="width: 500px; height: 706px; left: 130px; top: 27905px; position: absolute" src="./../iMAGES/Untitled-2.jpg" />
+        <img class="Untitled1" style="width: 555px; height: 313px; left: 765px; top: 27905px; position: absolute" src="./../iMAGES/untitled.jpg" />
+        <img class="P4PradevKumarCdEPage00051" style="width: 496px; height: 352px; left: 795px; top: 28297px; position: absolute" src="./../iMAGES/P4_PRADEV KUMAR_CD E_page-0005.jpg" />
+        <div class="ObservingMyAcquaintancesGrowingInterestInJapaneseCuisineIDevelopedThisConceptToAlignWithTheTrend" style="width: 1140px; left: 169px; top: 24797px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Observing my acquaintances' growing interest in Japanese cuisine, I developed this concept to align with the trend.</div>
+        <img class="Sushi1" style="width: 1111px; height: 624px; left: 164px; top: 25095px; position: absolute" src="./../iMAGES/SUSHI.jpg" />
+        <video controls loop class="Sushi2" style="width: 1096px; height: 616px; left: 176px; top: 25756px; position: absolute" src="./../VIDEO/Snapinsta.app_video_GG-OJRUQeEsE4ecGAE151S0iT1VvbkYLAAAF.mp4" ></video>
+        
+        <div class="RobotToy sidebar" style="width: 160px; left: 1510px; top: 265px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section2">ROBOT TOY</a></p></div>
+        <div class="Kitchen sidebar" style="width:190px; left: 1510px; top: 1030px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section5">KITCHEN</a></p></div>
+        <div class="ToyFigure sidebar" style="width:190px ;left: 1510px; top: 460px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section3">TOY FIGURE</a></p></div>
+        <div class="Pixar sidebar" style="width:190px;left: 1510px; top: 1170px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section6">PIXAR</a></p></div>
+        <div class="Breakfast sidebar" style="width: 170px; left: 1510px; top: 50px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section1">BREAKFAST</a></p></div>
+        <div class="CaptainAmericaShield sidebar" style="width:360px;left: 1510px; top: 670px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section4">CAPTAIN AMERICA SHIELD</a></p></div>
+        <div class="GameSpace sidebar sidebar" style="width: 190px; left: 1510px; top: 1350px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section7">GAME SPACE</a></p></div>
+        <div class="PingPong sidebar" style="width:190px;left: 1510px; top: 1780px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section9">PING PONG</a></p></div>
+        <div class="Helicopter sidebar" style="width:190px;left: 1510px; top: 1570px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section8">HELICOPTER</a></p></div>
+        <div class="Keyboard sidebar" style="width:190px;left: 1510px; top: 1980px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section10">KEYBOARD</a></p></div>
+        <div class="JapaneseDineIn sidebar" style="width: 280px; left: 1510px; top: 2190px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white; "><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section11">JAPANESE DINE-IN</a></p></div>
+        <div class="HistoryXBrand sidebar" style="width: 280px;left: 1510px; top: 2520px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white; "><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section12">HISTORY X BRAND</a></p></div>
+        <p class="ConveyorBelt sidebar" style="width: 240px; left:1510px; top: 1480px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section1">CONVEYOR BELT</a></p></div>
+        <p class="Dominoes sidebar" style="width:190px;left: 1510px; top: 2221px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section1">DOMINOES</a></p></div>
+        
+        <button class="floating-button">
+            <a href="#top">
+            <img src="./../iMAGES/arrow-icon-white-1.png" alt="Image Alt Text">
+            </a>
+          </button>
+    </div>
+</body>
+</html>
