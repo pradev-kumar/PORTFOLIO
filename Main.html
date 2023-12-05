@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://fonts.google.com/css2?family=Long+Cang&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim&display=swap">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         .sidebar a {
             color: white; 
@@ -24,68 +26,89 @@
         .contact a:visited {
             color: black; 
         }
-        .floating-button {
+        #gotop {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      background-color: #000000;
-      color: white;
-      border: none;
-      border-radius: 50%;
       width: 50px;
       height: 50px;
-      text-align: center;
+      background-color: #000000;
+      border: none;
+      border-radius: 50%;
       cursor: pointer;
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    }
-        .floating-button img {
-      width: 100%;
-      height: 100%;
+      animation: spin 2s linear infinite;
     }
 
-    </style>
-    <title>Document</title>
+    #gotop img {
+      width: 100%; /* Make sure the image fills the button */
+    }
+
+    #gotop:hover {
+      animation-play-state: paused; /* Pause the rotation on hover */
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <script>
+    function goToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    }
+  </script>
+    <title>WELCOME</title>
 </head>
 <body>
-    <div class="Desktop7" style="width: 100%; height: 100%; position: relative; background: white">
-        <div class="Rectangle8" style="width: 123px; height: 4148px; left: 1431px; top: 0px; position: absolute; background: #7E7E7E"></div>
-        <div class="Rectangle1" style="width: 1431px; height: 4148px; left: 0px; top: 0px; position: absolute; background: #0A0A0A; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>
-        <div class="CheckOutMyWorks sidebar" style="width: 333px; height: 40px; left: 1530px; top: 544px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white; "><p style="font-family: 'Indie Flower', cursive; font-size : 30px"><a href="#section2">CHECK OUT MY WORKS</a></p></div>
-        <div class="TryToContact sidebar" style="width: 248px; height: 40px; left: 1530px; top: 965px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower', cursive; font-size : 30px"><a href="#section3">TRY TO CONTACT</a></p></div>
-        <div class="WannaKnowAboutMe sidebar" style="width: 382px; height: 40px; left: 1530px; top: 74px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower', cursive; font-size : 30px"><a href="#section1">WANNA KNOW ABOUT ME?</a></p></div>
-        <div class="Rectangle3" style="width: 1430px; height: 710px; left: 0px; top: 3436px; position: absolute; background: #D9D9D9; border-top-left-radius: 50px; border-top-right-radius: 50px"></div>
-        <div class="Ellipse1" style="width: 1430px; height: 329px; left: 0px; top: 3310px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
-        <div class="Group1" style="width: 1440px; height: 1166px; left: 0px; top: 877px; position: absolute">
-            <div class="Ellipse2" style="width: 1440px; height: 410px; left: 0px; top: 756px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
-            <div class="Rectangle3" style="width: 1440px; height: 764px; left: 0px; top: 197px; position: absolute; background: #D9D9D9"></div>
-            <div class="Ellipse1" style="width: 1440px; height: 410px; left: 0px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
-            <div class="Group7" style="width: 641px; height: 791px; left: 789px; top: 289px; position: absolute">
-                <img class="Portfolio1" style="width: 500px; height: 700px; left: 49.52px; top: 102.22px; position: absolute" src="./../iMAGES/PORTFOLIO.png" />
-            </div>        </div>
-        <div class="Welcome" style="width: 1140px; left: 146px; top: 358px; position: absolute; text-align: center; color: white;"id = "top"><p style="font-family: 'Long Cang', cursive; font-size : 60px">Welcome to the Devilishly Creative Portfolio: Where Imagination Meets the Dark Side</p></div>
-        <div class="Box" style="width: 685px; left: 84px; top: 1175px; position: absolute; color: black;"><p style="font-family: 'Indie Flower', cursive; font-size : 40px"> Hey there! I'm Pradev Kumar, but you can call me Dev. I'm not your ordinary freshman at Atlas Skilltech University, Mumbai. I'm on a thrilling quest to master design. I breathe movies, devour delicious dishes, and craft captivating stories with a knack for storyboards. What sets me apart? I'm not just a design enthusiast; I'm a people person, unafraid to mingle and collaborate. Join me on this dynamic journey where creativity knows no bounds.</p></div>
-        <div class="AboutMe" style="width: 350px; height: 155px; left: 97px; top: 980px; position: absolute; text-align: center; color: black; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word"id="section1"><p style="font-family: 'Londrina Solid';">ABOUT ME</p></div>
-        <div class="MyWorkBox" style="width: 726px; height: 163px; left: 353px; top: 2100px; position: absolute; text-align: center; color: white;" id="section2"><p style="font-family: 'Londrina Solid'; font-size : 150px">MY WORK BOX</p></div>
-        <div class="Group5" style="width: 624px; height: 624px; left: 78px; top: 2473px; position: absolute"><a href="photography.html">            <div class="Rectangle4" style="width: 624px; height: 624px; left: 0px; top: 0px; position: absolute; background: rgba(217, 217, 217, 0.40); border-top-left-radius: 100px; border-top-right-radius: 0px; border-bottom-left-radius: 100px"></div>
-            <div class="PhotographySkills" style="width: 440px; height: 370px; left: 92px; top: 127px; position: absolute; text-align: center; color: white;"><p style="font-family: 'Itim', cursive; font-size: 60px;">PHOTOGRAPHY<br>SKILLS</p></div>
-        </a>
-</div>
-        <div class="Group6" style="width: 624px; height: 624px; left: 738px; top: 2473px; position: absolute"><a href="3Dartworks.html">
-            <div class="Rectangle5" style="width: 624px; height: 624px; left: 0px; top: 0px; position: absolute; background: rgba(217, 217, 217, 0.40);  border-top-right-radius: 100px;border-bottom-right-radius: 100px"></div>
-            <div class="DArtworksSkills" style="width: 440px; height: 370px; left: 92px; top: 127px; position: absolute; text-align: center; color: white;"><p style="font-family: 'Itim', cursive; font-size: 60px;">3D ARTWORKS<br>SKILLS</p></div>
-        </a>
-</div>
-        <div class="YouCanContactMe" style="width: 610px; height: 183px; left: 411px; top: 3300px; position: absolute; text-align: center; color: black;" id="section3"><p style="font-family: 'Londrina Solid'; font-size : 100px">YOU CAN CONTACT ME</p></div>
-        <div class="contact" style="width: 745px; height: 46px; left: 162px; top: 3642px; position: absolute"><span style="color: black; font-size: 40px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Call me with this number : </span><span style="font-family: 'Itim', cursive; font-size: 30px;"><a href="tel:+919345688718">+91 9345688718</a></span></div>
-        <div class="contact" style="width: 1107px; height: 47px; left: 162px; top: 3760px; position: absolute"><span style="color: black; font-size: 40px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">mail me via </span><span style="font-family: 'Itim', cursive; font-size: 30px;"><a href="mailto:pradev.kumar.bdes2026@atlasskilltech.university">pradev.kumar.bdes2026@atlasskilltech.university</a></span></div>
-        <div class="contact" style="width: 1106px; height: 47px; left: 162px; top: 3881px; position: absolute"><span style="color: black; font-size: 40px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">you can know after seeing </span><span style="font-family: 'Itim', cursive; font-size: 30px;"><a href="https://drive.google.com/file/d/12KLn5Z9ACKBStabCcciehSmVA5K8STwn/view?usp=sharing">my resume</a></span></div>
-        <div class="contact" style="width: 1106px; height: 47px; left: 162px; top: 3999px; position: absolute"><span style="color: black; font-size: 40px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Check out </span><span style="font-family: 'Itim', cursive; font-size: 30px;"><a href="https://www.instagram.com/devil_arts.2005/"> my instagram profile</a></span></div>
-        </div>
-        <button class="floating-button">
-            <a href="#top">
-            <img src="./../iMAGES/arrow-icon-white-1.png" alt="Image Alt Text">
+    <div class="container-fluid">
+        <div class="Desktop7" style="width: 100%; height: 100%; position: relative; background: white">
+            <div class="Rectangle8" style="width: 123px; height: 4148px; left: 1431px; top: 0px; position: absolute; background: #7E7E7E"></div>
+            <div class="Rectangle1" style="width: 1431px; height: 4148px; left: 0px; top: 0px; position: absolute; background: #0A0A0A; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div class="CheckOutMyWorks sidebar" style="width: 333px; height: 40px; left: 1530px; top: 544px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white; "><p style="font-family: 'Indie Flower', cursive; font-size : 30px"><a href="#section2">CHECK OUT MY WORKS</a></p></div>
+            <div class="TryToContact sidebar" style="width: 248px; height: 40px; left: 1530px; top: 965px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower', cursive; font-size : 30px"><a href="#section3">TRY TO CONTACT</a></p></div>
+            <div class="WannaKnowAboutMe sidebar" style="width: 382px; height: 40px; left: 1530px; top: 74px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower', cursive; font-size : 30px"><a href="#section1">WANNA KNOW ABOUT ME?</a></p></div>
+            <div class="Rectangle3" style="width: 1430px; height: 710px; left: 0px; top: 3436px; position: absolute; background: #D9D9D9; border-top-left-radius: 50px; border-top-right-radius: 50px"></div>
+            <div class="Ellipse1" style="width: 1430px; height: 329px; left: 0px; top: 3310px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+            <div class="Group1" style="width: 1440px; height: 1166px; left: 0px; top: 877px; position: absolute">
+                <div class="Ellipse2" style="width: 1440px; height: 410px; left: 0px; top: 756px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+                <div class="Rectangle3" style="width: 1440px; height: 764px; left: 0px; top: 197px; position: absolute; background: #D9D9D9"></div>
+                <div class="Ellipse1" style="width: 1440px; height: 410px; left: 0px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+                <div class="Group7" style="width: 641px; height: 791px; left: 789px; top: 289px; position: absolute">
+                    <img class="Portfolio1" style="width: 500px; height: 700px; left: 49.52px; top: 102.22px; position: absolute" src="./../iMAGES/PORTFOLIO.png" />
+                </div>        </div>
+            <div class="Welcome" style="width: 1140px; left: 146px; top: 358px; position: absolute; text-align: center; color: white;"id = "top"><p style="font-family: 'Long Cang', cursive; font-size : 60px">Welcome to the Devilishly Creative Portfolio: Where Imagination Meets the Dark Side</p></div>
+            <div class="Box" style="width: 685px; left: 84px; top: 1175px; position: absolute; color: black;"><p style="font-family: 'Indie Flower', cursive; font-size : 40px"> Hey there! I'm Pradev Kumar, but you can call me Dev. I'm not your ordinary freshman at Atlas Skilltech University, Mumbai. I'm on a thrilling quest to master design. I breathe movies, devour delicious dishes, and craft captivating stories with a knack for storyboards. What sets me apart? I'm not just a design enthusiast; I'm a people person, unafraid to mingle and collaborate. Join me on this dynamic journey where creativity knows no bounds.</p></div>
+            <div class="AboutMe" style="width: 350px; height: 155px; left: 97px; top: 980px; position: absolute; text-align: center; color: black; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word"id="section1"><p style="font-family: 'Londrina Solid';">ABOUT ME</p></div>
+            <div class="MyWorkBox" style="width: 726px; height: 163px; left: 353px; top: 2100px; position: absolute; text-align: center; color: white;" id="section2"><p style="font-family: 'Londrina Solid'; font-size : 150px">MY WORK BOX</p></div>
+            <div class="Group5" style="width: 624px; height: 624px; left: 78px; top: 2473px; position: absolute"><a href="photography.html">            <div class="Rectangle4" style="width: 624px; height: 624px; left: 0px; top: 0px; position: absolute; background: rgba(217, 217, 217, 0.40); border-top-left-radius: 100px; border-top-right-radius: 0px; border-bottom-left-radius: 100px"></div>
+                <div class="PhotographySkills" style="width: 440px; height: 370px; left: 92px; top: 127px; position: absolute; text-align: center; color: white;"><p style="font-family: 'Itim', cursive; font-size: 60px;">PHOTOGRAPHY<br>SKILLS</p></div>
             </a>
-          </button>
+    </div>
+            <div class="Group6" style="width: 624px; height: 624px; left: 738px; top: 2473px; position: absolute"><a href="3Dartworks.html">
+                <div class="Rectangle5" style="width: 624px; height: 624px; left: 0px; top: 0px; position: absolute; background: rgba(217, 217, 217, 0.40);  border-top-right-radius: 100px;border-bottom-right-radius: 100px"></div>
+                <div class="DArtworksSkills" style="width: 440px; height: 370px; left: 92px; top: 127px; position: absolute; text-align: center; color: white;"><p style="font-family: 'Itim', cursive; font-size: 60px;">3D ARTWORKS<br>SKILLS</p></div>
+            </a>
+    </div>
+            <div class="YouCanContactMe" style="width: 610px; height: 183px; left: 411px; top: 3300px; position: absolute; text-align: center; color: black;" id="section3"><p style="font-family: 'Londrina Solid'; font-size : 100px">YOU CAN CONTACT ME</p></div>
+            <div class="contact" style="width: 745px; height: 46px; left: 162px; top: 3642px; position: absolute"><span style="color: black; font-size: 40px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Call me with this number : </span><span style="font-family: 'Itim', cursive; font-size: 30px;"><a href="tel:+919345688718">+91 9345688718</a></span></div>
+            <div class="contact" style="width: 1107px; height: 47px; left: 162px; top: 3760px; position: absolute"><span style="color: black; font-size: 40px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">mail me via </span><span style="font-family: 'Itim', cursive; font-size: 30px;"><a href="mailto:pradev.kumar.bdes2026@atlasskilltech.university">pradev.kumar.bdes2026@atlasskilltech.university</a></span></div>
+            <div class="contact" style="width: 1106px; height: 47px; left: 162px; top: 3881px; position: absolute"><span style="color: black; font-size: 40px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">you can know after seeing </span><span style="font-family: 'Itim', cursive; font-size: 30px;"><a href="https://drive.google.com/file/d/12KLn5Z9ACKBStabCcciehSmVA5K8STwn/view?usp=sharing">my resume</a></span></div>
+            <div class="contact" style="width: 1106px; height: 47px; left: 162px; top: 3999px; position: absolute"><span style="color: black; font-size: 40px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Check out </span><span style="font-family: 'Itim', cursive; font-size: 30px;"><a href="https://www.instagram.com/devil_arts.2005/"> my instagram profile</a></span></div>
+            </div>
+            <button id="gotop" onclick="goToTop()">
+                <img src="./../iMAGES/arrow-icon-white-1.png" alt="Go to Top">
+              </button>
+            
+        </div>
 
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
