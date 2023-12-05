@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap">
     <link rel="stylesheet" href="https://fonts.google.com/css2?family=Long+Cang&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim&display=swap">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         .sidebar a {
             color: white; 
@@ -25,79 +26,99 @@
         .contact a:visited {
             color: black; 
         }
-        .floating-button {
+        #gotop {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      background-color: #000000;
-      color: white;
-      border: none;
-      border-radius: 50%;
       width: 50px;
       height: 50px;
-      text-align: center;
+      background-color: #000000;
+      border: none;
+      border-radius: 50%;
       cursor: pointer;
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      animation: spin 2s linear infinite;
     }
 
-    
-    .floating-button img {
-      width: 100%;
-      height: 100%;
+    #gotop img {
+      width: 100%; /* Make sure the image fills the button */
     }
-    </style>
 
+    #gotop:hover {
+      animation-play-state: paused; /* Pause the rotation on hover */
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <script>
+    function goToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    }
+  </script>
+    <title>PHOTOGRAPHY</title>
 </head>
-<body Style="background-color: #000000;">
-    <div class="Desktop8" style="width: 100%; height: 100%; position: relative; background: rgb(0, 0, 0)">
-    <div class="Rectangle8" style="width: 123px; height: 23262px; left: 1378px; top: -2px; position: absolute; background: #7E7E7E"></div>
-    <div class="Rectangle1" style="width: 1417px; height: 23260px; left: 0px; top: 0px; position: absolute; background: #0A0A0A; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>        <div class="ArchitectureAndSpace sidebar" style="width: 412px; height: 40px; left: 1510px; top: 504px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section2">ARCHITECTURE AND SPACE</a></p></div>
-        <div class="SteepsAndSlopes sidebar" style="width: 322px; height: 40px; left: 1510px; top: 965px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section3">STEEPS AND SLOPES</a></div>
-        <div class="NatureWithoutPeople sidebar" style="width: 382px; height: 40px; left: 1510px; top: 74px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section1">NATURE WITHOUT PEOPLE</a></p></div>
-        <div class="Group1" style="width: 1417px; height: 816px; left: 0px; top: -2px; position: absolute">
-            <div class="Ellipse2" style="width: 1417px; height: 345.26px; left: 0px; top: 470.74px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
-            <div class="Rectangle3" style="width: 1417px; height: 643.37px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
-            <div class="PhotographySkills contact" style="width: 1188.26px; height: 421.08px; left: 145px; top: 173px; position: absolute; text-align: center; color: black; font-size: 160px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="top">PHOTOGRAPHY<br/>SKILLS</div>
-        </div>  
-        <img class="Img3401" style="width: 577px; height: 866px; left: 105px; top: 8357px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3401.JPG" />
-        <img class="Img4096" style="width: 1216px; height: 912px; left: 105px; top: 7408px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_4096.jpg" />
-        <img class="Img3380" style="width: 582px; height: 872px; left: 739px; top: 8357px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3380.JPG" />
-        <img class="Img3402" style="width: 1216px; height: 810px; left: 105px; top: 9302px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3402.JPG" />
-        <img class="Img20221022Wa0005" style="width: 1216px; height: 1621px; left: 105px; top: 10237px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG-20221022-WA0005.jpg" />
-        <img class="Img20221022Wa0021" style="width: 1216px; height: 912px; left: 105px; top: 11983px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG-20221022-WA0021.jpg" />
-        <img class="Img0786" style="width: 1216px; height: 912px; left: 105px; top: 13960px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_0786.jpg" />
-        <img class="Img3379" style="width: 1216px; height: 811px; left: 105px; top: 13022px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3379.JPG" />
-        <div class="Arch" style="width: 1140px; left: 125px; top: 6486px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">"Architecture and Space: A Collection of Perspectives" is a captivating exploration of the seamless integration of design and surroundings. This collection effortlessly transitions between the realms of design and geometry, providing a unique perspective on the intricate relationship between built structures and their environments.</div>
-        <div class="ArchitectureAndSpace" style="width: 952px; left: 189px; top: 6299px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section2">ARCHITECTURE AND SPACE</div>
-        <img class="Photo" style="width: 1251px; height: 938px; left: 83px; top: 5000px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_20190610_073650.jpg" />
-        <img class="Photo" style="width: 1251px; height: 937px; left: 83px; top: 3990px; position: absolute; border-radius: 50px" src="./../iMAGES/photo_2022-10-27_21-56-50.jpg" />
-        <img class="Photo" style="width: 655px; height: 873px; left: 83px; top: 3055px; position: absolute; border-radius: 50px" src="./../iMAGES/photo_2022-10-27_21-57-21.jpg" />
-        <img class="Photo" style="width: 1224px; height: 816px; left: 83px; top: 1655px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3405.JPG" />
-        <img class="Photo" style="width: 655px; height: 491px; left: 83px; top: 2521px; position: absolute; border-radius: 50px" src="./../iMAGES/photo_2022-10-27_21-57-37.jpg" />
-        <img class="Photo" style="width: 549px; height: 732px; left: 758px; top: 2521px; position: absolute; border-radius: 50px" src="./../iMAGES/photo_2022-10-27_21-57-33.jpg" />
-        <img class="Photo" style="width: 549px; height: 625px; left: 761px; top: 3303px; position: absolute; border-radius: 50px" src="./../iMAGES/photo_2022-10-27_21-57-14.jpg" />
-        <div class="Nature" style="width: 1140px; left: 125px; top: 1132px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Nature without people is an unspoiled beauty of the nature earth without the presence of humans. It has a collection of places that reconnect with the wild and rediscover the peace of Mother Nature.</div>
-        <div class="NatureWithoutPeople" style="width: 952px; left: 189px; top: 965px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section1">NATURE WITHOUT PEOPLE</div>
-    </div>
-        <img class="Img3376" style="width: 1146px; height: 764px; left: 153px; top: 19719px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3376.JPG" />
-        <img class="Img20221022Wa0019" style="width: 566px; height: 755px; left: 761px; top: 15330px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG-20221022-WA0019.jpg" />
-        <img class="Img20190602144603" style="width: 566px; height: 755px; left: 146px; top: 15330px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_20190602_144603.jpg" />
-        <img class="Img20190602115842" style="width: 1134px; height: 851px; left: 153px; top: 20608px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_20190602_115842.jpg" />
-        <img class="Img20190602111513" style="width: 1134px; height: 850px; left: 153px; top: 17896px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_20190602_111513.jpg" />
-        <img class="120051" style="width: 1146px; height: 749px; left: 141px; top: 18845px; position: absolute; border-radius: 50px" src="./../iMAGES/20180507_120051.jpg" />
-        <img class="115310" style="width: 1183px; height: 664px; left: 141px; top: 17107px; position: absolute; border-radius: 50px" src="./../iMAGES/20180507_115310.jpg" />
-        <img class="Img4089" style="width: 1134px; height: 1384px; left: 153px; top: 21537px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_4089.jpg" />
-        <img class="Img3316" style="width: 546px; height: 820px; left: 778px; top: 16184px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3316.JPG" />
-        <img class="Img3411" style="width: 546px; height: 820px; left: 153px; top: 16184px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3411.JPG" />
-        <div class="SteepsAndSlopesMyPhotographicJourneyThroughNatureSDiverseTerrainsExploreRuggedPeaksToTranquilHills" style="width: 1196px; left: 141px; top: 14790px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Steeps and Slopes: My photographic journey through nature's diverse terrains. Explore rugged peaks to tranquil hills.</div>
-        <div class="SteepsAndSlopes" style="width: 999px; height: 117px; left: 208px; top: 14548px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section3">STEEPS AND SLOPES</div>
-        <a href="main-new.html"><img class="Ellipse3" style="width: 100px; height: 100px; left: 41.92px; top: 51.50px; position: absolute; border: 15px black solid; border-radius: 100px;" src="./../iMAGES/download.png" /></a>
-        
-        <button class="floating-button">
-            <a href="#top">
-            <img src="./../iMAGES/arrow-icon-white-1.png" alt="Image Alt Text">
-            </a>
-          </button>
-    </div>
+<body>
+    <div class="container-fluid">
+        <div class="Desktop8" style="width: 100%; height: 100%; position: relative; background: rgb(0, 0, 0)">
+            <div class="Rectangle8" style="width: 123px; height: 23262px; left: 1378px; top: -2px; position: absolute; background: #7E7E7E"></div>
+            <div class="Rectangle1" style="width: 1417px; height: 23260px; left: 0px; top: 0px; position: absolute; background: #0A0A0A; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>        <div class="ArchitectureAndSpace sidebar" style="width: 412px; height: 40px; left: 1510px; top: 504px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section2">ARCHITECTURE AND SPACE</a></p></div>
+                <div class="SteepsAndSlopes sidebar" style="width: 322px; height: 40px; left: 1510px; top: 965px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section3">STEEPS AND SLOPES</a></div>
+                <div class="NatureWithoutPeople sidebar" style="width: 382px; height: 40px; left: 1510px; top: 74px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; text-align: center; color: white;"><p style="font-family: 'Indie Flower'; font-size : 30px"><a href="#section1">NATURE WITHOUT PEOPLE</a></p></div>
+                <div class="Group1" style="width: 1417px; height: 816px; left: 0px; top: -2px; position: absolute">
+                    <div class="Ellipse2" style="width: 1417px; height: 345.26px; left: 0px; top: 470.74px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+                    <div class="Rectangle3" style="width: 1417px; height: 643.37px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
+                    <div class="PhotographySkills contact" style="width: 1188.26px; height: 421.08px; left: 145px; top: 173px; position: absolute; text-align: center; color: black; font-size: 160px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="top">PHOTOGRAPHY<br/>SKILLS</div>
+                </div>  
+                <img class="Img3401" style="width: 577px; height: 866px; left: 105px; top: 8357px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3401.JPG" />
+                <img class="Img4096" style="width: 1216px; height: 912px; left: 105px; top: 7408px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_4096.jpg" />
+                <img class="Img3380" style="width: 582px; height: 872px; left: 739px; top: 8357px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3380.JPG" />
+                <img class="Img3402" style="width: 1216px; height: 810px; left: 105px; top: 9302px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3402.JPG" />
+                <img class="Img20221022Wa0005" style="width: 1216px; height: 1621px; left: 105px; top: 10237px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG-20221022-WA0005.jpg" />
+                <img class="Img20221022Wa0021" style="width: 1216px; height: 912px; left: 105px; top: 11983px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG-20221022-WA0021.jpg" />
+                <img class="Img0786" style="width: 1216px; height: 912px; left: 105px; top: 13960px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_0786.jpg" />
+                <img class="Img3379" style="width: 1216px; height: 811px; left: 105px; top: 13022px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3379.JPG" />
+                <div class="Arch" style="width: 1140px; left: 125px; top: 6486px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">"Architecture and Space: A Collection of Perspectives" is a captivating exploration of the seamless integration of design and surroundings. This collection effortlessly transitions between the realms of design and geometry, providing a unique perspective on the intricate relationship between built structures and their environments.</div>
+                <div class="ArchitectureAndSpace" style="width: 952px; left: 189px; top: 6299px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section2">ARCHITECTURE AND SPACE</div>
+                <img class="Photo" style="width: 1251px; height: 938px; left: 83px; top: 5000px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_20190610_073650.jpg" />
+                <img class="Photo" style="width: 1251px; height: 937px; left: 83px; top: 3990px; position: absolute; border-radius: 50px" src="./../iMAGES/photo_2022-10-27_21-56-50.jpg" />
+                <img class="Photo" style="width: 655px; height: 873px; left: 83px; top: 3055px; position: absolute; border-radius: 50px" src="./../iMAGES/photo_2022-10-27_21-57-21.jpg" />
+                <img class="Photo" style="width: 1224px; height: 816px; left: 83px; top: 1655px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3405.JPG" />
+                <img class="Photo" style="width: 655px; height: 491px; left: 83px; top: 2521px; position: absolute; border-radius: 50px" src="./../iMAGES/photo_2022-10-27_21-57-37.jpg" />
+                <img class="Photo" style="width: 549px; height: 732px; left: 758px; top: 2521px; position: absolute; border-radius: 50px" src="./../iMAGES/photo_2022-10-27_21-57-33.jpg" />
+                <img class="Photo" style="width: 549px; height: 625px; left: 761px; top: 3303px; position: absolute; border-radius: 50px" src="./../iMAGES/photo_2022-10-27_21-57-14.jpg" />
+                <div class="Nature" style="width: 1140px; left: 125px; top: 1132px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Nature without people is an unspoiled beauty of the nature earth without the presence of humans. It has a collection of places that reconnect with the wild and rediscover the peace of Mother Nature.</div>
+                <div class="NatureWithoutPeople" style="width: 952px; left: 189px; top: 965px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section1">NATURE WITHOUT PEOPLE</div>
+            </div>
+                <img class="Img3376" style="width: 1146px; height: 764px; left: 153px; top: 19719px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3376.JPG" />
+                <img class="Img20221022Wa0019" style="width: 566px; height: 755px; left: 761px; top: 15330px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG-20221022-WA0019.jpg" />
+                <img class="Img20190602144603" style="width: 566px; height: 755px; left: 146px; top: 15330px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_20190602_144603.jpg" />
+                <img class="Img20190602115842" style="width: 1134px; height: 851px; left: 153px; top: 20608px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_20190602_115842.jpg" />
+                <img class="Img20190602111513" style="width: 1134px; height: 850px; left: 153px; top: 17896px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_20190602_111513.jpg" />
+                <img class="120051" style="width: 1146px; height: 749px; left: 141px; top: 18845px; position: absolute; border-radius: 50px" src="./../iMAGES/20180507_120051.jpg" />
+                <img class="115310" style="width: 1183px; height: 664px; left: 141px; top: 17107px; position: absolute; border-radius: 50px" src="./../iMAGES/20180507_115310.jpg" />
+                <img class="Img4089" style="width: 1134px; height: 1384px; left: 153px; top: 21537px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_4089.jpg" />
+                <img class="Img3316" style="width: 546px; height: 820px; left: 778px; top: 16184px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3316.JPG" />
+                <img class="Img3411" style="width: 546px; height: 820px; left: 153px; top: 16184px; position: absolute; border-radius: 50px" src="./../iMAGES/IMG_3411.JPG" />
+                <div class="SteepsAndSlopesMyPhotographicJourneyThroughNatureSDiverseTerrainsExploreRuggedPeaksToTranquilHills" style="width: 1196px; left: 141px; top: 14790px; position: absolute; text-align: center; color: white; font-size: 64px; font-family: Indie Flower; font-weight: 400; word-wrap: break-word">Steeps and Slopes: My photographic journey through nature's diverse terrains. Explore rugged peaks to tranquil hills.</div>
+                <div class="SteepsAndSlopes" style="width: 999px; height: 117px; left: 208px; top: 14548px; position: absolute; text-align: center; color: white; font-size: 96px; font-family: Londrina Solid; font-weight: 400; word-wrap: break-word" id="section3">STEEPS AND SLOPES</div>
+                <a href="main-new.html"><img class="Ellipse3" style="width: 100px; height: 100px; left: 41.92px; top: 51.50px; position: absolute; border: 15px black solid; border-radius: 100px;" src="./../iMAGES/download.png" /></a>
+                
+                <button id="gotop" onclick="goToTop()">
+                    <img src="./../iMAGES/arrow-icon-white-1.png" alt="Go to Top">
+                  </button>
+            </div>
+            </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
